@@ -25,7 +25,7 @@ const Slide03_Supervisors = () => {
                     <div className="w-40 h-40 bg-neutral-100 rounded-full mb-6 flex items-center justify-center border-2 border-primary/20">
                         <BadgeCheck size={64} className="text-primary/40" />
                     </div>
-                    <h3 className="text-3xl font-bold text-neutral-800 mb-2">Asif Ahmed Kowshiq</h3>
+                    <h3 className="text-3xl font-bold text-neutral-800 mb-2">Asif Ahmed</h3>
                     <p className="text-xl text-secondary font-medium mb-4">Lecturer</p>
                     <div className="w-16 h-1 bg-neutral-100 rounded-full mb-4" />
                     <p className="text-neutral-500">Department of CSE</p>
