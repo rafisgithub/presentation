@@ -73,24 +73,23 @@ const Presentation = () => {
     return (
         <div className="relative w-screen h-screen bg-neutral-100 overflow-hidden">
             {/* Navigation Controls */}
-            <div className="absolute inset-y-0 left-0 w-24 flex items-center justify-start pl-4 z-50 opacity-0 hover:opacity-100 transition-opacity">
-                <button
-                    onClick={prevSlide}
-                    className="p-2 bg-black/20 rounded-full text-white hover:bg-black/40 transition-colors disabled:opacity-0"
-                    disabled={currentSlideIndex === 0}
-                >
-                    <ArrowLeft size={32} />
-                </button>
-            </div>
-            <div className="absolute inset-y-0 right-0 w-24 flex items-center justify-end pr-4 z-50 opacity-0 hover:opacity-100 transition-opacity">
-                <button
-                    onClick={nextSlide}
-                    className="p-2 bg-black/20 rounded-full text-white hover:bg-black/40 transition-colors disabled:opacity-0"
-                    disabled={currentSlideIndex === SLIDES.length - 1}
-                >
-                    <ArrowRight size={32} />
-                </button>
-            </div>
+            {/* Navigation Controls */}
+            <button
+                onClick={prevSlide}
+                className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-primary/10 hover:bg-primary/90 hover:text-white text-primary rounded-full shadow-lg transition-all disabled:opacity-0 disabled:cursor-not-allowed backdrop-blur-sm"
+                disabled={currentSlideIndex === 0}
+                aria-label="Previous Slide"
+            >
+                <ArrowLeft size={20} className="md:w-8 md:h-8" />
+            </button>
+            <button
+                onClick={nextSlide}
+                className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-primary/10 hover:bg-primary/90 hover:text-white text-primary rounded-full shadow-lg transition-all disabled:opacity-0 disabled:cursor-not-allowed backdrop-blur-sm"
+                disabled={currentSlideIndex === SLIDES.length - 1}
+                aria-label="Next Slide"
+            >
+                <ArrowRight size={20} className="md:w-8 md:h-8" />
+            </button>
 
             <AnimatePresence mode='wait'>
                 <motion.div

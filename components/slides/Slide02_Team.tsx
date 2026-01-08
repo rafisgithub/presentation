@@ -16,7 +16,7 @@ const Slide02_Team = () => {
         <SlideWrapper slideNumber={2}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Team Members</h2>
 
-            <div className="grid grid-cols-3 gap-8 px-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-0 md:px-8 pb-8">
                 {teamMembers.map((member, index) => (
                     <div key={index} className="flex flex-col items-center bg-neutral-50 p-6 rounded-xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow">
                         {/* Photo Placeholder or Image */}

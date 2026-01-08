@@ -7,10 +7,10 @@ const Slide15_Containerization = () => {
         <SlideWrapper slideNumber={15}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Containerization</h2>
 
-            <div className="flex gap-16 h-full pb-8">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 h-full pb-8">
 
                 {/* Left: Docker Stack Diagram */}
-                <div className="w-1/2 bg-blue-50/50 rounded-2xl border-2 border-blue-100 p-8 flex flex-col items-center justify-center relative">
+                <div className="w-full lg:w-1/2 bg-blue-50/50 rounded-2xl border-2 border-blue-100 p-8 flex flex-col items-center justify-center relative min-h-[300px]">
                     <div className="absolute top-4 left-4 flex items-center gap-2 text-blue-800 font-mono font-bold">
                         <Box size={20} /> docker-compose.yml
                     </div>
@@ -36,7 +36,7 @@ const Slide15_Containerization = () => {
                 </div>
 
                 {/* Right: Benefits */}
-                <div className="w-1/2 flex flex-col justify-center gap-8">
+                <div className="w-full lg:w-1/2 flex flex-col justify-center gap-8">
                     <div className="flex gap-4">
                         <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center text-green-600 shrink-0">
                             <Layers />

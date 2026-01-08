@@ -7,10 +7,10 @@ const Slide09_Model = () => {
         <SlideWrapper slideNumber={9}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">AI Model Design</h2>
 
-            <div className="flex gap-12 h-full pb-8">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 h-full pb-8">
 
                 {/* Left Col: Details */}
-                <div className="w-1/3 flex flex-col gap-8">
+                <div className="w-full lg:w-1/3 flex flex-col gap-4 md:gap-8">
                     <div className="bg-neutral-50 p-6 rounded-xl border border-neutral-200">
                         <div className="flex items-center gap-4 mb-2">
                             <Database className="text-primary" />
@@ -41,7 +41,7 @@ const Slide09_Model = () => {
                 </div>
 
                 {/* Right Col: Diagram Placeholder */}
-                <div className="w-2/3 bg-white rounded-xl border-4 border-dashed border-neutral-300 flex flex-col items-center justify-center p-8">
+                <div className="w-full lg:w-2/3 bg-white rounded-xl border-4 border-dashed border-neutral-300 flex flex-col items-center justify-center p-8 min-h-[300px]">
                     <div className="flex items-center gap-4 mb-8">
                         <div className="w-16 h-16 bg-blue-600 rounded text-xs flex items-center justify-center text-white font-bold shadow-md">Input</div>
                         <div className="h-1 w-8 bg-neutral-400"></div>

@@ -10,49 +10,59 @@ const Slide07_Architecture = () => {
             <div className="flex flex-col gap-12">
 
                 {/* Flow Diagram */}
-                <div className="flex items-center justify-between px-12">
+                <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-12 gap-8 md:gap-0">
                     {/* Step 1: Flutter */}
                     <div className="flex flex-col items-center text-center">
-                        <div className="w-24 h-24 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 mb-4 border-2 border-blue-200">
+                        <div className="w-20 h-20 md:w-24 md:h-24 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 mb-4 border-2 border-blue-200">
                             <Smartphone size={40} />
                         </div>
                         <span className="font-bold text-lg">Flutter App</span>
                     </div>
 
                     {/* Arrow */}
-                    <div className="flex-1 h-1 bg-neutral-300 mx-4 relative">
+                    <div className="hidden md:block flex-1 h-1 bg-neutral-300 mx-4 relative">
                         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 border-t-2 border-r-2 border-neutral-400 rotate-45"></div>
+                    </div>
+                    <div className="block md:hidden h-8 w-1 bg-neutral-300 relative">
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3 h-3 border-b-2 border-r-2 border-neutral-400 rotate-45"></div>
                     </div>
 
                     {/* Step 2: Django */}
                     <div className="flex flex-col items-center text-center">
-                        <div className="w-24 h-24 bg-green-100 rounded-2xl flex items-center justify-center text-green-800 mb-4 border-2 border-green-200">
+                        <div className="w-20 h-20 md:w-24 md:h-24 bg-green-100 rounded-2xl flex items-center justify-center text-green-800 mb-4 border-2 border-green-200">
                             <Server size={40} />
                         </div>
                         <span className="font-bold text-lg">Django API</span>
                     </div>
 
                     {/* Arrow */}
-                    <div className="flex-1 h-1 bg-neutral-300 mx-4 relative">
+                    <div className="hidden md:block flex-1 h-1 bg-neutral-300 mx-4 relative">
                         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 border-t-2 border-r-2 border-neutral-400 rotate-45"></div>
                     </div>
+                    <div className="block md:hidden h-8 w-1 bg-neutral-300 relative">
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3 h-3 border-b-2 border-r-2 border-neutral-400 rotate-45"></div>
+                    </div>
+
 
                     {/* Step 3: AI Model */}
                     <div className="flex flex-col items-center text-center">
-                        <div className="w-24 h-24 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 mb-4 border-2 border-purple-200">
+                        <div className="w-20 h-20 md:w-24 md:h-24 bg-purple-100 rounded-2xl flex items-center justify-center text-purple-600 mb-4 border-2 border-purple-200">
                             <BrainCircuit size={40} />
                         </div>
                         <span className="font-bold text-lg">AI Model</span>
                     </div>
 
                     {/* Arrow */}
-                    <div className="flex-1 h-1 bg-neutral-300 mx-4 relative">
+                    <div className="hidden md:block flex-1 h-1 bg-neutral-300 mx-4 relative">
                         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 border-t-2 border-r-2 border-neutral-400 rotate-45"></div>
+                    </div>
+                    <div className="block md:hidden h-8 w-1 bg-neutral-300 relative">
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3 h-3 border-b-2 border-r-2 border-neutral-400 rotate-45"></div>
                     </div>
 
                     {/* Step 4: Postgres */}
                     <div className="flex flex-col items-center text-center">
-                        <div className="w-24 h-24 bg-indigo-100 rounded-2xl flex items-center justify-center text-indigo-600 mb-4 border-2 border-indigo-200">
+                        <div className="w-20 h-20 md:w-24 md:h-24 bg-indigo-100 rounded-2xl flex items-center justify-center text-indigo-600 mb-4 border-2 border-indigo-200">
                             <Database size={40} />
                         </div>
                         <span className="font-bold text-lg">PostgreSQL</span>
@@ -60,9 +70,9 @@ const Slide07_Architecture = () => {
                 </div>
 
                 {/* Docker Containers Box */}
-                <div className="mt-8 border-4 border-dashed border-neutral-300 rounded-xl p-8 relative">
-                    <span className="absolute top-0 left-8 px-4 py-1 bg-white -translate-y-1/2 text-neutral-500 font-mono font-semibold">Docker Containers</span>
-                    <div className="grid grid-cols-4 gap-6">
+                <div className="mt-8 border-4 border-dashed border-neutral-300 rounded-xl p-4 md:p-8 relative">
+                    <span className="absolute top-0 left-4 md:left-8 px-4 py-1 bg-white -translate-y-1/2 text-neutral-500 font-mono font-semibold text-sm md:text-base">Docker Containers</span>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                         <div className="bg-blue-50 p-4 rounded-lg text-center font-mono text-blue-800 border border-blue-200">
                             <span className="block font-bold">Web</span>
                             (Django)

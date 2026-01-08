@@ -7,11 +7,11 @@ const Slide14_Chat = () => {
         <SlideWrapper slideNumber={14}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Real-time Chat System</h2>
 
-            <div className="grid grid-cols-2 gap-12 px-8 h-full pb-8">
+            <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12 px-0 md:px-8 h-full pb-8">
 
                 {/* Left: Interactive/Visual Flow */}
-                <div className="bg-neutral-50 rounded-2xl border-4 border-dashed border-neutral-200 flex flex-col items-center justify-center relative p-8">
-                    <div className="flex justify-between w-full max-w-md items-center mb-12">
+                <div className="bg-neutral-50 rounded-2xl border-4 border-dashed border-neutral-200 flex flex-col items-center justify-center relative p-8 min-h-[300px]">
+                    <div className="flex flex-col md:flex-row justify-between w-full max-w-md items-center mb-12 gap-8 md:gap-0">
                         {/* Farmer */}
                         <div className="flex flex-col items-center gap-2">
                             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center border-2 border-blue-500">
@@ -21,7 +21,7 @@ const Slide14_Chat = () => {
                         </div>
 
                         {/* Connection Lines */}
-                        <div className="flex-1 h-1 bg-neutral-300 mx-4 relative">
+                        <div className="hidden md:block flex-1 h-1 bg-neutral-300 mx-4 relative">
                             <Wifi size={20} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-green-500 bg-neutral-50 px-1" />
                         </div>
 
@@ -33,7 +33,7 @@ const Slide14_Chat = () => {
                         </div>
 
                         {/* Connection Lines */}
-                        <div className="flex-1 h-1 bg-neutral-300 mx-4 relative">
+                        <div className="hidden md:block flex-1 h-1 bg-neutral-300 mx-4 relative">
                             <Wifi size={20} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-green-500 bg-neutral-50 px-1" />
                         </div>
 
