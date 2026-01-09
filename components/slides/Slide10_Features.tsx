@@ -4,7 +4,7 @@ import { ScanFace, ShoppingBasket, MessageSquareText } from 'lucide-react';
 
 const Slide10_Features = () => {
     return (
-        <SlideWrapper slideNumber={10}>
+        <SlideWrapper slideNumber={13}>
             <h2 className="text-4xl font-bold text-primary mb-16 border-l-8 border-secondary pl-6">Key Features</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 px-4">

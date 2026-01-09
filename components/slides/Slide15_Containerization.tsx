@@ -4,7 +4,7 @@ import { Box, Layers, PlayCircle, Settings } from 'lucide-react';
 
 const Slide15_Containerization = () => {
     return (
-        <SlideWrapper slideNumber={15}>
+        <SlideWrapper slideNumber={10}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Containerization</h2>
 
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 h-full pb-8">

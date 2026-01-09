@@ -2,9 +2,9 @@ import React from 'react';
 import SlideWrapper from '../SlideWrapper';
 import { ArrowRight, CloudOff, Mic, LineChart, CreditCard, Leaf } from 'lucide-react';
 
-const Slide17_Future = () => {
+const Slide31_Future = () => {
     return (
-        <SlideWrapper slideNumber={17}>
+        <SlideWrapper slideNumber={31}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Future Enhancements</h2>
 
             <div className="flex flex-col gap-6 max-w-4xl mx-auto w-full">
@@ -54,4 +54,4 @@ const Slide17_Future = () => {
     );
 };
 
-export default Slide17_Future;
+export default Slide31_Future;

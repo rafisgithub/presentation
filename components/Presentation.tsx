@@ -20,8 +20,22 @@ import Slide13 from './slides/Slide13_MultiVendor';
 import Slide14 from './slides/Slide14_Chat';
 import Slide15 from './slides/Slide15_Containerization';
 import Slide16 from './slides/Slide16_Benefits';
-import Slide17 from './slides/Slide17_Future';
-import Slide18 from './slides/Slide18_End';
+import Slide17 from './slides/Slide17_Onboarding';
+import Slide18 from './slides/Slide18_CoreFeatures';
+import Slide19 from './slides/Slide19_Discovery';
+import Slide20 from './slides/Slide20_Shopping';
+import Slide21 from './slides/Slide21_Ecosystem';
+import Slide22_SellerDashboard from './slides/Slide22_SellerDashboard';
+import Slide23_SellerProducts from './slides/Slide23_SellerProducts';
+import Slide24_SellerOrders from './slides/Slide24_SellerOrders';
+import Slide25_SellerDueBook from './slides/Slide25_SellerDueBook';
+import Slide26_SuperAdminOverview from './slides/Slide26_SuperAdminOverview';
+import Slide27_AdminUserManagement from './slides/Slide27_AdminUserManagement';
+import Slide28_AdminProductManagement from './slides/Slide28_AdminProductManagement';
+import Slide29_AdminCMS from './slides/Slide29_AdminCMS';
+import Slide30_AdminPages from './slides/Slide30_AdminPages';
+import Slide31_Future from './slides/Slide31_Future';
+import Slide32_End from './slides/Slide32_End';
 
 const SLIDES = [
     Slide01,
@@ -30,18 +44,33 @@ const SLIDES = [
     Slide04,
     Slide05,
     Slide06,
+
     Slide07,
-    Slide08,
     Slide09,
-    Slide10,
     Slide11,
+    Slide15,
+    Slide14,
+    Slide08,
+    Slide10,
     Slide12,
     Slide13,
-    Slide14,
-    Slide15,
     Slide16,
     Slide17,
     Slide18,
+    Slide19,
+    Slide20,
+    Slide21,
+    Slide22_SellerDashboard,
+    Slide23_SellerProducts,
+    Slide24_SellerOrders,
+    Slide25_SellerDueBook,
+    Slide26_SuperAdminOverview,
+    Slide27_AdminUserManagement,
+    Slide28_AdminProductManagement,
+    Slide29_AdminCMS,
+    Slide30_AdminPages,
+    Slide31_Future,
+    Slide32_End,
 ];
 
 const Presentation = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
 import SlideWrapper from '../SlideWrapper';
 
-const Slide18_End = () => {
+const Slide32_End = () => {
     return (
-        <SlideWrapper slideNumber={18}>
+        <SlideWrapper slideNumber={32}>
             <div className="flex flex-col items-center justify-center h-full text-center space-y-12">
 
                 <div>
@@ -26,4 +26,4 @@ const Slide18_End = () => {
     );
 };
 
-export default Slide18_End;
+export default Slide32_End;

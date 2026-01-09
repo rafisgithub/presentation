@@ -4,7 +4,7 @@ import { Timer, Zap, CheckCircle2 } from 'lucide-react';
 
 const Slide12_Results = () => {
     return (
-        <SlideWrapper slideNumber={12}>
+        <SlideWrapper slideNumber={14}>
             <h2 className="text-4xl font-bold text-primary mb-16 border-l-8 border-secondary pl-6">Implementation Results</h2>
 
             <div className="flex gap-12 h-full pb-8">

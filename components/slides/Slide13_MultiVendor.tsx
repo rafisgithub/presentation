@@ -31,7 +31,7 @@ const features = [
 
 const Slide13_MultiVendor = () => {
     return (
-        <SlideWrapper slideNumber={13}>
+        <SlideWrapper slideNumber={15}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Multi-Vendor System</h2>
 
             <div className="grid grid-cols-2 gap-8 px-12">

@@ -4,7 +4,7 @@ import { Database, Layers, Search, Maximize } from 'lucide-react';
 
 const Slide09_Model = () => {
     return (
-        <SlideWrapper slideNumber={9}>
+        <SlideWrapper slideNumber={8}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">AI Model Design</h2>
 
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 h-full pb-8">

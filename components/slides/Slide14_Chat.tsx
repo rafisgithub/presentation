@@ -4,7 +4,7 @@ import { Wifi, MessageCircle, Clock, Database } from 'lucide-react';
 
 const Slide14_Chat = () => {
     return (
-        <SlideWrapper slideNumber={14}>
+        <SlideWrapper slideNumber={11}>
             <h2 className="text-4xl font-bold text-primary mb-12 border-l-8 border-secondary pl-6">Real-time Chat System</h2>
 
             <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12 px-0 md:px-8 h-full pb-8">
